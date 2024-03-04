@@ -1,0 +1,15 @@
+.container {
+  .seletionContainer {
+    @apply w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10;
+  }
+  .selector {
+    @apply bg-black text-gray-300 p-3 text-sm rounded-lg outline-none sm:mt-0 mt-5;
+  }
+  .genreTitle {
+    @apply font-bold text-3xl text-white text-left;
+  }
+  .songCardContainer {
+    @apply flex flex-wrap sm:justify-start justify-center gap-8;
+  }
+  @apply flex flex-col;
+}

@@ -1,0 +1,27 @@
+.songCarrd {
+  .cardContent {
+    @apply relative w-full h-56;
+  }
+  @apply flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer;
+}
+.loadingContainer {
+  .loadingImg {
+    @apply w-32 h-32 object-contain;
+  }
+  .loadingTitle {
+    @apply font-bold text-2xl text-white mt-2;
+  }
+  @apply w-full flex justify-center items-center flex-col;
+}
+.errorContainer{
+    .errorMessage{
+        @apply font-bold text-2xl text-white
+    }
+    @apply w-full flex justify-center items-center
+}
+.navLink{
+    @apply flex flex-row justify-start items-center my-8 text-sm font-medium text-gray-400 hover:text-cyan-400
+}
+.navIcon{
+    @apply w-6 h-6 mr-2
+}
